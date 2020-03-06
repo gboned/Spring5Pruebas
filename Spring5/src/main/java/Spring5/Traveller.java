@@ -6,7 +6,7 @@ public class Traveller {
 	/* Por cada viajero, hay un vehículo. */
 	private Vehicle vehicle;
 	/* Creado constructor de la clase viajero */
-	public Traveller (String name) {
+	public Traveller (String name, Vehicle vehicle2) {
 		this.name = name;
 		this.vehicle = vehicle;
 	}
