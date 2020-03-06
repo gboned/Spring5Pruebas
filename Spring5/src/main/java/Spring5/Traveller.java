@@ -10,6 +10,10 @@ public class Traveller {
 		this.name = name;
 		this.vehicle = vehicle;
 	}
+	/* Traveller utilizará el interface de Vehicle */
+	public void setVehicle() {
+		this.vehicle = vehicle;
+	}
 	/* Cuando se llama a su método move, en verdad se
 	 * llama al del vehículo.
 	 * */
