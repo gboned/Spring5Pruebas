@@ -11,7 +11,7 @@ public class Traveller {
 		this.vehicle = vehicle;
 	}
 	/* Traveller utilizará el interface de Vehicle */
-	public void setVehicle() {
+	public void setVehicle(Vehicle vehicle) {
 		this.vehicle = vehicle;
 	}
 	/* Cuando se llama a su método move, en verdad se
